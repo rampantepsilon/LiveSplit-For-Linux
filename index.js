@@ -222,7 +222,7 @@ function createWindow () {
   const mainWindow = new BrowserWindow({
     width: 1000,
     height: 720,
-    //icon: __dirname + "/tgsn.png",
+    icon: __dirname + "/Icon.png",
     webPreferences: {
       nativeWindowOpen: true
     }
